@@ -5,13 +5,13 @@ document.addEventListener('DOMContentLoaded', () => {
   const cells = []
   let snake = [12,11,10,9]
   let direction = 'right'
+  const soundEffect = document.querySelector('audio')
   const scoreDisplay = document.querySelector('.score')
   let score = 0
   let speedSnake = 400
   const resetBtn = document.querySelector('button')
   document.querySelector('.dead')
   let timer
-  // document.getElementById('themeL').loop = true
 
   //create a grid
   for (let i = 0; i < width ** 2; i++) {
@@ -48,6 +48,8 @@ document.addEventListener('DOMContentLoaded', () => {
     eraseSnake()
     grid.classList.remove('grid')
     grid.classList.add('dead')
+    soundEffect.src = 'sounds/Metal_Gong-Dianakc-109711828.mp3'
+    soundEffect.play()
   }
 
   function moveSnake() {
@@ -79,6 +81,8 @@ document.addEventListener('DOMContentLoaded', () => {
       snake.unshift(snake[0])
       scoreDisplay.innerText = score
       apple()
+      soundEffect.src = 'sounds/Biting Apple-SoundBible.com-415478302.mp3'
+      soundEffect.play()
     }
 
     drawSnake()
