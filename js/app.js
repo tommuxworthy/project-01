@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const soundEffect = document.querySelector('audio')
   const scoreDisplay = document.querySelector('.score')
   let score = 0
-  let speedSnake = 400
+  let speedSnake = 300
   const resetBtn = document.querySelector('button')
   document.querySelector('.dead')
   let timer
@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (cells[snake[0]].classList.contains('apple')) {
       score ++
-      speedSnake += 10
+      speedSnake -= 10
       console.log(speedSnake)
       cells[snake[0]].classList.remove('apple')
       snake.unshift(snake[0])
