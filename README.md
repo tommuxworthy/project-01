@@ -23,6 +23,7 @@ Getting Started
 - 
 In GitHub, use the clone button to download the game source code. Then, open the index.html file in your browser and the game should start - if not check console for any issues. The images used in this game are stored in the images folder and are all png files.
 
+![Screenshot 2020-03-02 at 13 05 08](https://user-images.githubusercontent.com/48793557/75679466-99450880-5c87-11ea-9f35-2ac5fb18ba49.png)
 
 Game Architecture
 - 
