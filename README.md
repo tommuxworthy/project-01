@@ -4,6 +4,8 @@ This was my first project of the General Assembly Software Engineering Immersive
 Javascript Snake Game
 -
 - This project is a browser game of Snake built with Vanilla Javascript.
+![Screenshot P1 Code 2](https://user-images.githubusercontent.com/48793557/75677729-06569f00-5c84-11ea-96b6-c4405c9490c2.png)
+![Uploading Screenshot P1 Code 1.png…]()
 
 Built With
 - 
