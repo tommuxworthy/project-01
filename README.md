@@ -39,6 +39,7 @@ Game Architecture
 - If the snake is moving left it cannot immediately move right and vice-versa.
 - If the snake is moving up it cannot immediately move down and vice-versa.
 
+![Screenshot P1 Code 1](https://user-images.githubusercontent.com/48793557/75678304-436f6100-5c85-11ea-9d0a-a3b72ac2f849.png)
 
 Challenges and future improvement
 -
