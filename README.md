@@ -3,7 +3,7 @@ This was my first project of the General Assembly Software Engineering Immersive
 
 **Timeframe**
 -
-- 5 days
+- 5 days in a pair
 
 Javascript Snake Game
 -
