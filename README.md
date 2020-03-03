@@ -1,9 +1,9 @@
 # project-01
-This was my first project of the General Assembly Software Engineering Immersive course (Week 4).
+This was my first project of the General Assembly Software Engineering Immersive course (Week 4). This was a solo project.
 
 **Timeframe**
 -
-- 5 days in a pair
+- 5 days.
 
 Javascript Snake Game
 -
