@@ -1,6 +1,10 @@
 # project-01
 This was my first project of the General Assembly Software Engineering Immersive course (Week 4).
 
+**Timeframe**
+-
+- 5 days
+
 Javascript Snake Game
 -
 - This project is a browser game of Snake built with Vanilla Javascript.
