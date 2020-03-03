@@ -21,7 +21,7 @@ Built With
 
 Deployment
 - 
-- The game is deployed on GitHub Pages and it can be found here: 
+- The game is deployed on Heroku and it can be found here: 
 
 Getting Started
 - 
